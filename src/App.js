@@ -4,7 +4,6 @@ import "./App.css";
 
 export default function App() {
   const [image, setImage] = useState(null);
-  const [croppedImage, setCroppedImage] = useState(null);
   const [crop, setCrop] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(1);
 
